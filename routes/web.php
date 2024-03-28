@@ -9,15 +9,10 @@ Route::get('/', function () {
 });
 
 Route::get('/home', [HomeController::class, 'index'])->middleware(['auth', 'verified'])->name('home');
-Route::post('/home/create', [HomeController::class, 'create'])->name('save');;
-Route::post('/home/{id}', [HomeController::class, 'update'])->name('update');;
 
 
 
 Route::middleware('auth')->group(function () {
-    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
     Route::post('/home/create', [HomeController::class, 'create'])->name('save');
     Route::post('/home/update', [HomeController::class, 'update'])->name('update');
     Route::post('/employees/{id}/activate', [HomeController::class, 'activate'])->name('employees.activate');

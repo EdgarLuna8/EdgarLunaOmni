@@ -1,3 +1,25 @@
+## Pasos para instalar el proyect 
+
+1. Descarga el proyecto a tu ordenador clonandolo.
+2. Copea y pega el archivo .env configurandola con una db local. 
+3. Ya descargado, corre los siguientes comandos:
+
+```
+npm install or npm i
+composer install or composer i
+composer dump-autoload
+php artisan migrate --seed or php artisan migrate:refresh --seed
+```
+4. Listo, el usuario de prueba es el siguiente :
+
+Email : test@example.com
+Password : Test1234
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Logo de Laravel"></a></p>
 
 <p align="center">
@@ -20,6 +42,7 @@ Laravel es un framework de aplicación web con una sintaxis expresiva y elegante
 - [Emisión de eventos en tiempo real](https://laravel.com/docs/broadcasting).
 
 Laravel es accesible, potente y proporciona herramientas necesarias para aplicaciones grandes y robustas.
+
 
 ## Aprendiendo Laravel
 
