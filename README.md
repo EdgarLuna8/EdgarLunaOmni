@@ -1,4 +1,5 @@
-## Pasos para instalar el proyect 
+## Pasos para instalar el proyecto
+
 
 1. Descarga el proyecto a tu ordenador clonandolo.
 2. Copia y pega el archivo ```.env``` configurandola con una db local. 
