@@ -2,7 +2,7 @@
 
 
 1. Descarga el proyecto a tu ordenador clonandolo.
-2. Copia y pega el archivo ```.env``` configurandola con una db local. 
+2. Copia y pega el archivo ```.example.env``` a ```.env``` configurandola con una db local. 
 3. Ya descargado, corre los siguientes comandos:
 
 ```
